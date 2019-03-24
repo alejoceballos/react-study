@@ -445,7 +445,7 @@ export default Parent;
 
 ![Two Way Binding](README.files/two-way-binding.jpg "Two Way Binding")
 
-### Passing Data Up in the Hierarchy (example)
+### Passing Data Up in the Hierarchy ("Add" example)
 
 1. With a simple Form and a List:
 
@@ -559,4 +559,59 @@ export default (props) => {
         </div>
     )
 }
+```
+
+### Passing Data Up in the Hierarchy ("Remove" example)
+
+#### App
+
+```javascript
+    . . .
+    onRemoveItem = (index) => {
+        const list = [...this.state.list];
+        list.splice(index, 1);
+        this.setState({list: list});
+    };
+
+    render() {
+        return (
+            . . .
+                <List list={this.state.list} onRemoveItem={this.onRemoveItem} />
+            . . .
+        );
+    }
+    . . .
+```
+
+#### List/List
+
+```javascript
+    . . .
+    const { list, onRemoveItem } = props;
+    const listItems = list.map(
+        (item, idx) =>
+            <ListItem
+                key={idx}
+                index={idx}
+                firstName={item.firstName}
+                lastName={item.lastName}
+                onRemoveItem={onRemoveItem}
+            />
+    );
+    . . .
+```
+
+#### List/ListItem
+
+```javascript
+import React from 'react';
+    . . .
+    const { firstName, lastName, index, onRemoveItem } = props;
+
+    const removeItem = () => {
+        onRemoveItem(index)
+    };
+    . . .
+            <span>Name: {firstName} {lastName} <button onClick={removeItem}> - </button></span>
+    . . .
 ```

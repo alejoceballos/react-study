@@ -18,11 +18,17 @@ class App extends Component {
         this.setState(list)
     };
 
+    onRemoveItem = (index) => {
+        const list = [...this.state.list];
+        list.splice(index, 1);
+        this.setState({list: list});
+    };
+
     render() {
         return (
             <div className="App">
-                <AddItem onAddItem={this.onAddItem}/>
-                <List list={this.state.list}/>
+                <AddItem onAddItem={this.onAddItem} />
+                <List list={this.state.list} onRemoveItem={this.onRemoveItem} />
             </div>
         );
     }
