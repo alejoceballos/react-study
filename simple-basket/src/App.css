@@ -1,0 +1,10 @@
+div .panel {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+div .product {
+  display: inline-block;
+  margin: 5px;
+}
