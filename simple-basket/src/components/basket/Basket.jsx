@@ -1,7 +1,6 @@
 import BasketItem from "./BasketItem";
 
-export default function Basket({products, onRemove}) {
-    const byInBasket = product => product.inBasket;
+export default function Basket({basket, onRemove}) {
     const toBasketItem = product =>
         <BasketItem
             name={product.name}
@@ -12,9 +11,7 @@ export default function Basket({products, onRemove}) {
         <>
             <h1>Basket</h1>
             <ul>
-                {products
-                    .filter(byInBasket)
-                    .map(toBasketItem)}
+                {basket.map(toBasketItem)}
             </ul>
         </>
     )

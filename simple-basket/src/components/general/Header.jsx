@@ -1,15 +1,36 @@
-import {useState} from "react";
+import './Header.css';
+import {useEffect, useState} from "react";
 import {loadInfo, loadLogo} from "../../services/configService";
 
-export function Header() {
-    const [logo] = useState(loadLogo());
-    const [info] = useState(loadInfo());
+const Image = ({source}) => {
+    if (source) {
+        return <img src={source} alt="Logo"/>;
+    }
+
+    return <img src="/logo192.png" alt="Loading..."/>;
+}
+
+export default function Header() {
+    const [imageSource, setImageSource] = useState();
+    const [info, setInfo] = useState({
+        title: 'Loading...',
+        subTitle: 'Loading...',
+        description: 'Loading...'
+    });
+
+    useEffect(() => {
+        loadLogo().then(source => setImageSource(source));
+        loadInfo().then(info => setInfo(info));
+    }, []);
 
     return (
-        <div>
-            <img src={logo.image} alt={logo.alternative}/>
-            <h1>{info.title}</h1>
-            <h2>{info.subtitle}</h2>
-        </div>
+        <>
+            <div className="header">
+                <Image source={imageSource}/>
+                <h1>{info.title}</h1>
+                <h2>{info.subTitle}</h2>
+            </div>
+            <h3>{info.description}</h3>
+        </>
     );
 }
