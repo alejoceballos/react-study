@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="debug" type="js.build_tools.npm">
-    <package-json value="$PROJECT_DIR$/package.json" />
+  <configuration default="false" name="Simple Basket [debug]" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/simple-basket/package.json" />
     <command value="start" />
-    <node-interpreter value="node" />
+    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v22.2.0/bin/node" />
     <envs />
     <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
       <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
