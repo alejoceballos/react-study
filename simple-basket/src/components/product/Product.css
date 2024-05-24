@@ -1,0 +1,16 @@
+div .product {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 5px;
+    padding: 1px 3px 10px 3px;
+    width: 100px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h3 .title {
+    margin: 1px;
+    vertical-align: top;
+}

@@ -1,15 +1,24 @@
 import Category from "./Category";
+import {getKey} from "../../util/utils";
 
-export default function Categories({products, basket, onAddToBasket: addToBasket, onRemoveFromBasket: removeFromBasket}) {
+export default function Categories(
+    {
+        products,
+        basket,
+        onAddToBasket: addToBasket,
+        onRemoveFromBasket: removeFromBasket
+    }) {
+
     const toCategory = type =>
         <Category
+            key={getKey(type)}
             type={type}
             products={products[type]}
             basket={basket}
             onAddToBasket={addToBasket}
             onRemoveFromBasket={removeFromBasket}/>;
 
-    const displayPanel = products => {
+    const displayCategories = products => {
         if (products && Object.keys(products).length > 0) {
             return Object
                 .keys(products)
@@ -22,7 +31,7 @@ export default function Categories({products, basket, onAddToBasket: addToBasket
     return (
         <>
             <h1>Products</h1>
-            {displayPanel(products)}
+            {displayCategories(products)}
         </>
     );
 }

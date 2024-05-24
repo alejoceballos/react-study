@@ -63,7 +63,42 @@
     "contractLength": "1"
   },
   {
+    "name": "Aikido",
+    "type": "Martial Arts",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Tae Kwon Do",
+    "type": "Martial Arts",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Hapkido",
+    "type": "Martial Arts",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Kalaripayattu",
+    "type": "Martial Arts",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
     "name": "Muay Thai",
+    "type": "Combat Sports",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Karate Full Contact",
     "type": "Combat Sports",
     "description": "",
     "monthlyCost": "40",
@@ -77,7 +112,14 @@
     "contractLength": "1"
   },
   {
-    "name": "MMA ",
+    "name": "MMA",
+    "type": "Combat Sports",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Savate",
     "type": "Combat Sports",
     "description": "",
     "monthlyCost": "40",
@@ -106,6 +148,20 @@
   },
   {
     "name": "Gafieira",
+    "type": "Dancing",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Kuduro",
+    "type": "Dancing",
+    "description": "",
+    "monthlyCost": "40",
+    "contractLength": "1"
+  },
+  {
+    "name": "Flamenco",
     "type": "Dancing",
     "description": "",
     "monthlyCost": "40",

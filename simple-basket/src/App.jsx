@@ -5,8 +5,8 @@ import Shop from "./components/general/Shop";
 export default function App() {
     return (
         <>
-            <Header />
-            <Shop />
+            <Header/>
+            <Shop/>
         </>
     );
 }
