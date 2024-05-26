@@ -1,7 +1,11 @@
+import './Shop.css';
+
 import {useEffect, useState} from "react";
 import {areProductsEqual, loadProducts} from "../../services/productService";
+
 import Categories from "../product/Categories";
 import Basket from "../basket/Basket";
+import PanelTitle from "./PanelTitle";
 
 export default function Shop() {
     const [products, setProducts] = useState({});
@@ -23,15 +27,19 @@ export default function Shop() {
 
     return (
         <>
-            <h1>Shop</h1>
-            <div className="panel">
+            <div>
+                <h1 className="main-title">Shop</h1>
+            </div>
+            <div className="shop-panel">
+                <PanelTitle title="Products"/>
                 <Categories
                     products={products}
                     basket={basket}
                     onAddToBasket={addToBasket}
                     onRemoveFromBasket={removeFromBasket}/>
             </div>
-            <div className="panel">
+            <div className="shop-panel">
+                <PanelTitle title="Basket"/>
                 <Basket
                     basket={basket}
                     onRemove={removeFromBasket}/>

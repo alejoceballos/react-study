@@ -30,7 +30,6 @@ export default function Categories(
 
     return (
         <>
-            <h1>Products</h1>
             {displayCategories(products)}
         </>
     );

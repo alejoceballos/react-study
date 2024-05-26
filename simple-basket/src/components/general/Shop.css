@@ -1,0 +1,9 @@
+.main-title {
+    text-align: center;
+}
+
+.shop-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}

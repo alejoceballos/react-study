@@ -14,7 +14,6 @@ export default function Basket({basket, onRemove}) {
 
     return (
         <>
-            <h1>Basket</h1>
             <ul>
                 {basket
                     .sort(byProductName)
