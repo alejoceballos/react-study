@@ -6,3 +6,24 @@
     float: left;
     width: 100px;
 }
+
+.header h1 {
+    text-align: center;
+    font-size: xxx-large;
+    margin: 5px 0 5px 0;
+    color: var(--ll-dark-green);
+}
+
+.header h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 5px 0 5px 0;
+    color: var(--ll-dark-gray);
+}
+
+h3.header {
+    text-align: center;
+    font-size: large;
+    margin: 5px 0 5px 0;
+    color: var(--ll-light-gray);
+}

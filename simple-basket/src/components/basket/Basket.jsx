@@ -1,4 +1,5 @@
 import BasketItem from "./BasketItem";
+import BasketTotal from "./BasketTotal";
 import {getKey} from "../../util/utils";
 
 export default function Basket({basket, onRemove}) {
@@ -10,6 +11,7 @@ export default function Basket({basket, onRemove}) {
             key={getKey(product.type, product.name)}
             name={product.name}
             type={product.type}
+            value={product.monthlyCost}
             onRemove={() => onRemove(product)}/>;
 
     return (
@@ -19,6 +21,7 @@ export default function Basket({basket, onRemove}) {
                     .sort(byProductName)
                     .map(toBasketItem)}
             </ul>
+            <BasketTotal basket={basket}/>
         </>
     )
 }

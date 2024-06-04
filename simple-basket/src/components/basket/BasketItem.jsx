@@ -1,9 +1,13 @@
-export default function BasketItem({name, type, onRemove}) {
+import './BasketItem.css';
+import ProductPrice from "../product/ProductPrice";
+
+export default function BasketItem({name, type, value, onRemove}) {
     return (
-        <li>
-            <div>{name}</div>
-            <div>{type}</div>
-            <button onClick={onRemove}>Remove</button>
+        <li className="basket-item">
+            <button onClick={onRemove}>Remove</button>&nbsp;
+            <span className="basket-item-name">{name}</span>&nbsp;
+            <span>({type})</span> -&nbsp;
+            <ProductPrice price={value} />
         </li>
     );
 }

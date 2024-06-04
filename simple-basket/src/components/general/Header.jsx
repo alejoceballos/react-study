@@ -30,7 +30,7 @@ export default function Header() {
                 <h1>{info.title}</h1>
                 <h2>{info.subTitle}</h2>
             </div>
-            <h3>{info.description}</h3>
+            <h3 className="header">{info.description}</h3>
         </>
     );
 }

@@ -1,0 +1,11 @@
+:root {
+    --ll-green: rgb(72,177,167);
+    --ll-light-green: rgb(175, 221, 217);
+    --ll-dark-green: rgb(49, 129, 122);
+    --ll-light-gray: rgb(154,154,154);
+    --ll-dark-gray: rgb(119, 117, 117);
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}

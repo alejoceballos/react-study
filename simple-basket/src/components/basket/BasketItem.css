@@ -1,0 +1,8 @@
+.basket-item {
+    list-style-type: none;
+    margin: 5px 0 5px 0;
+}
+
+.basket-item-name {
+    font-weight: bold;
+}

@@ -2,98 +2,98 @@
   {
     "name": "Yoga",
     "type": "Wellness",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control (yoke) and still the mind, recognizing a detached witness-consciousness untouched by the mind (Chitta) and mundane suffering (Duḥkha)",
+    "monthlyCost": "40.1",
     "contractLength": "1"
   },
   {
     "name": "Pilates",
     "type": "Wellness",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Uses a combination of around 50 repetitive exercises to spur muscle exertion. Each exercise flows from the \"five essentials\": breath, cervical alignment, rib and scapular stabilization, pelvic mobility, and utilization of the transversus abdominis",
+    "monthlyCost": "30.99",
     "contractLength": "1"
   },
   {
     "name": "Tai Chi",
     "type": "Wellness",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is an ancient Chinese martial art. Initially developed for combat and self-defense, it has evolved into a sport and form of exercise. Tai chi is a gentle, low-impact form of exercise in which practitioners perform a series of deliberate, flowing motions while focusing on deep, slow breaths. Often referred to as \"meditation in motion,\" tai chi aims to concentrate and balance the body's qi (vital energy), providing benefits to mental and physical health",
+    "monthlyCost": "45",
     "contractLength": "1"
   },
   {
     "name": "Water Aerobics",
     "type": "Wellness",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is the performance of aerobic exercise in water such as in a swimming pool. It is done mostly vertically and without swimming typically in waist deep or deeper water. Water aerobics is a form of aerobic exercise that requires water-immersed participants. Most water aerobics is in a group fitness class setting with a trained professional teaching for about an hour",
+    "monthlyCost": "75.02",
     "contractLength": "1"
   },
   {
     "name": "Meditation",
     "type": "Wellness",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a practice in which an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state",
+    "monthlyCost": "4.01",
     "contractLength": "1"
   },
   {
     "name": "Karate",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a martial art developed in the Ryukyu Kingdom. It developed from the indigenous Ryukyuan martial arts (called te (手), \"hand\"; tī in Okinawan) under the influence of Chinese martial arts. While modern karate is primarily a striking art that uses punches and kicks, traditional karate also employs throwing and joint locking techniques",
+    "monthlyCost": "40.02",
     "contractLength": "1"
   },
   {
     "name": "Kung Fu",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Chinese martial arts, often called by the umbrella terms kung fu (/ˈkʌŋ ˈfuː/; Chinese: 功夫; pinyin: gōngfu; Cantonese Yale: gūng fū), kuoshu (國術; guóshù) or wushu (武術; wǔshù), are multiple fighting styles that have developed over the centuries in Greater China. These fighting styles are often classified according to common traits, identified as \"families\" of martial arts. Examples of such traits include Shaolinquan (少林拳) physical exercises involving All Other Animals (五形) mimicry or training methods inspired by Old Chinese philosophies, religions and legends. Styles that focus on qi manipulation are called internal (内家拳; nèijiāquán), while others that concentrate on improving muscle and cardiovascular fitness are called external (外家拳; wàijiāquán)",
+    "monthlyCost": "40.03",
     "contractLength": "1"
   },
   {
     "name": "Jiu Jitsu",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a self-defence martial art and combat sport based on grappling, ground fighting, and submission holds. BJJ focuses on taking ones opponent down to the ground, gaining a dominant position, and using a number of techniques to force them into submission via joint locks, chokeholds or compression locks",
+    "monthlyCost": "40.04",
     "contractLength": "1"
   },
   {
     "name": "Judo",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is an unarmed modern Japanese martial art, combat sport, Olympic sport (since 1964), and the most prominent form of jacket wrestling competed internationally.[3][4][5] Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art, distinguishing itself from its predecessors (primarily Tenjin Shinyo-ryu jujutsu and Kitō-ryū jujutsu) due to an emphasis on \"randori\" (乱取り, lit. 'free sparring') instead of \"kata\" (pre-arranged forms) alongside its removal of striking and weapon training elements",
+    "monthlyCost": "40.05",
     "contractLength": "1"
   },
   {
     "name": "Aikido",
     "type": "Martial Arts",
-    "description": "",
+    "description": "It was originally developed by Morihei Ueshiba, as a synthesis of his martial studies, philosophy and religious beliefs. The goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury. Aikido is often translated as \"the way of unifying (with) life energy\" or as \"the way of harmonious spirit\"",
     "monthlyCost": "40",
     "contractLength": "1"
   },
   {
     "name": "Tae Kwon Do",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a Korean martial art and combat sport involving punching and kicking techniques. The literal translation for taekwondo is \"kicking\", \"punching\", and \"the art or way of\". It sometimes involves the use of weapons.",
+    "monthlyCost": "40.06",
     "contractLength": "1"
   },
   {
     "name": "Hapkido",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a Korean martial art. It is a form of self-defense that employs joint locks, grappling, throwing techniques, kicks, punches, and other striking attacks. It also teaches the use of traditional weapons, including knife, sword, rope, nunchaku (ssang juhl bong), cane (ji pang ee), short stick (dan bong), and middle-length staff (joong bong), gun (analogous to the Japanese jō), and bō (Japanese)",
+    "monthlyCost": "40.07",
     "contractLength": "1"
   },
   {
     "name": "Kalaripayattu",
     "type": "Martial Arts",
-    "description": "",
-    "monthlyCost": "40",
+    "description": "Is a martial art which developed out of combat-techniques of the 11th-12th century battlefield, with weapons and combative techniques that are unique to Kerala. The word Kalaripayattu is a combination of two Malayalam words - kalari (training ground or battleground) and payattu (training of martial arts), which is roughly translated as \"practice in the arts of the battlefield\"",
+    "monthlyCost": "99.99",
     "contractLength": "1"
   },
   {
     "name": "Muay Thai",
     "type": "Combat Sports",
-    "description": "",
+    "description": "Is a Thai martial art and full-contact combat sport that uses stand-up striking, sweeps, and various clinching techniques. This discipline is known as the \"Art of eight limbs\", as it is characterised by the combined use of fists, elbows, knees and shins",
     "monthlyCost": "40",
     "contractLength": "1"
   },

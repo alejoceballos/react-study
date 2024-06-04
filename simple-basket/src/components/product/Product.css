@@ -1,16 +1,25 @@
-div .product {
+.product-card {
     display: inline-block;
     text-align: center;
     vertical-align: top;
     margin: 5px;
     padding: 1px 3px 10px 3px;
-    width: 100px;
-    border-color: black;
+    width: 20%;
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 70px;
+    max-height: 200px;
+    border-color: var(--ll-green);
     border-width: 1px;
     border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px var(--ll-light-green);
 }
 
-h3 .title {
-    margin: 1px;
+.product-title {
+    margin: 5px 0 0 0;
     vertical-align: top;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    color: var(--ll-dark-green);
 }

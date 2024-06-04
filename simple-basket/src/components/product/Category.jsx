@@ -20,6 +20,7 @@ export default function Category(
         key={getKey(type, product.name)}
         name={product.name}
         description={product.description}
+        cost={product.monthlyCost}
         inBasket={isProductInBasket(product, basket)}
         onAdd={() => addToBasket(product)}
         onRemove={() => removeFromBasket(product)}/>;

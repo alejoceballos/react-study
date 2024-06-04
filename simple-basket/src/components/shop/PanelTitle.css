@@ -1,0 +1,6 @@
+h1.panel-title {
+    text-align: center;
+    font-size: x-large;
+    margin: 10px 0 0 0;
+    color: var(--ll-dark-green);
+}

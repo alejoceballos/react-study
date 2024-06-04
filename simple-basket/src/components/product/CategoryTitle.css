@@ -1,0 +1,10 @@
+h2.category-title {
+    font-size: x-large;
+    margin: 10px 0 10px 0;
+    padding: 0 0 0 10px;
+    border-width: 0 0 5px 0;
+    border-style: none none solid none;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, var(--ll-green), white);
+    color: var(--ll-dark-green);
+}

@@ -1,0 +1,17 @@
+h1.shop-title {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px 0 20px 0;
+    color: var(--ll-dark-green);
+}
+
+.product-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+.basket-panel {
+    display: inline-block;
+    width: 35%;
+}

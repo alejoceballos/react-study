@@ -1,0 +1,11 @@
+span.price-symbol {
+    color: var(--ll-dark-gray);
+    font-weight: bold;
+    font-size: small;
+}
+
+span.price-value {
+    color: var(--ll-light-gray);
+    font-weight: normal;
+    font-size: small;
+}
