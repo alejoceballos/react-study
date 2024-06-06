@@ -1,4 +1,4 @@
-button.action-button {
+.action-button {
     border-color: var(--ll-green);
     border-width: 2px;
     border-style: solid;

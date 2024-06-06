@@ -1,13 +1,11 @@
-import { sumMoney, formatMoney } from '../../util/utils';
+import "./BasketTotal.css";
+import { sumMoney } from '../../util/utils';
+import Price from "../general/Price";
 
 export default function({basket}) {
-    if (!basket || basket.length === 0) {
-        return <div></div>
-    }
-
     const total = basket.reduce((total, product) => sumMoney(total, product.monthlyCost), 0);
 
-    return <div>
-        <span>Monthly cost:</span> £ <span>{formatMoney(total)}</span>
+    return <div className="basket-total">
+        <span className="price-label">Monthly cost: <Price price={total} size="L"/> </span>
     </div>
 }

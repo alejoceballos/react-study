@@ -1,13 +1,13 @@
-li.basket-item {
+.basket-item {
     list-style-type: none;
     margin: 5px 0 5px 0;
 }
 
-span.basket-item-name {
+.basket-item-name {
     font-weight: bold;
     color: var(--ll-dark-green);
 }
 
-span.basket-item-type {
+.basket-item-type {
     color: var(--ll-dark-gray);
 }

@@ -2,5 +2,7 @@ import './ProductDescription.css';
 
 export default function ProductDescription({text}) {
     const value = text || " . . . ";
-    return <p className="product-description">{value}</p>;
+    return <div className="tooltip">
+        <span className="product-description">{value}</span><span className="tooltiptext">{value}</span>
+    </div>;
 }

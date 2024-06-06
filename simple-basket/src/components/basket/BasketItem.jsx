@@ -1,5 +1,5 @@
 import './BasketItem.css';
-import ProductPrice from "../product/ProductPrice";
+import Price from "../general/Price";
 import ActionButton, {ACTION_TYPE} from "../general/ActionButton";
 
 export default function BasketItem({name, type, value, onRemove}) {
@@ -8,7 +8,7 @@ export default function BasketItem({name, type, value, onRemove}) {
             <ActionButton type={ACTION_TYPE.REMOVE} action={onRemove}/>
             <span className="basket-item-name">{name}</span>&nbsp;
             <span className="basket-item-type">({type})</span> -&nbsp;
-            <ProductPrice price={value}/>
+            <Price price={value}/>
         </li>
     );
 };

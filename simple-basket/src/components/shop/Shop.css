@@ -1,7 +1,7 @@
-h1.shop-title {
+.shop-title {
     text-align: center;
     font-size: xx-large;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 0 0;
     color: var(--ll-dark-green);
 }
 
@@ -14,4 +14,6 @@ h1.shop-title {
 .basket-panel {
     display: inline-block;
     width: 35%;
+    position: sticky;
+    top: 0;
 }
