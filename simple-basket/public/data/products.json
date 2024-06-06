@@ -58,7 +58,7 @@
   {
     "name": "Judo",
     "type": "Martial Arts",
-    "description": "Is an unarmed modern Japanese martial art, combat sport, Olympic sport (since 1964), and the most prominent form of jacket wrestling competed internationally.[3][4][5] Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art, distinguishing itself from its predecessors (primarily Tenjin Shinyo-ryu jujutsu and Kitō-ryū jujutsu) due to an emphasis on \"randori\" (乱取り, lit. 'free sparring') instead of \"kata\" (pre-arranged forms) alongside its removal of striking and weapon training elements",
+    "description": "Is an unarmed modern Japanese martial art, combat sport, Olympic sport (since 1964), and the most prominent form of jacket wrestling competed internationally. Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art, distinguishing itself from its predecessors (primarily Tenjin Shinyo-ryu jujutsu and Kitō-ryū jujutsu) due to an emphasis on \"randori\" (乱取り, lit. 'free sparring') instead of \"kata\" (pre-arranged forms) alongside its removal of striking and weapon training elements",
     "monthlyCost": "40.05",
     "contractLength": "1"
   },

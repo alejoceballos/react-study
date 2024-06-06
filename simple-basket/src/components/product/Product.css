@@ -1,4 +1,5 @@
 .product-card {
+    background-color: var(--ll-even-lighter-green);
     display: inline-block;
     text-align: center;
     vertical-align: top;
@@ -14,6 +15,10 @@
     border-style: solid;
     border-radius: 10px;
     box-shadow: 2px 2px var(--ll-light-green);
+}
+
+.product-card:hover {
+    background-color: var(--ll-lighter-green);
 }
 
 .product-title {

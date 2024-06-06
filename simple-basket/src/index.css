@@ -1,9 +1,11 @@
 :root {
+    --ll-dark-green: rgb(49, 129, 122);
     --ll-green: rgb(72,177,167);
     --ll-light-green: rgb(175, 221, 217);
-    --ll-dark-green: rgb(49, 129, 122);
-    --ll-light-gray: rgb(154,154,154);
+    --ll-lighter-green: rgb(213, 244, 242);
+    --ll-even-lighter-green: rgb(246, 255, 254);
     --ll-dark-gray: rgb(119, 117, 117);
+    --ll-light-gray: rgb(154,154,154);
 }
 
 body {
