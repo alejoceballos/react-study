@@ -9,3 +9,5 @@ export const getKey = (...args) => args
 export const sumMoney = (a, b) => $(a).add(b).valueOf();
 
 export const formatMoney = value => $(value).toFixed();
+
+export const capitalize = str => str ? str[0].toUpperCase() + str.slice(1).toLowerCase() : "";
