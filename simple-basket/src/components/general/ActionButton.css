@@ -13,9 +13,18 @@
 
 .action-button:hover {
     background-color: white;
+    color: var(--ll-green);
     box-shadow: 1px 1px 1px 1px var(--ll-light-green);
 }
 
 .action-button:active {
     box-shadow: 0 0;
+    transform: translate3d(1px, 1px, 0);
+}
+
+.action-button svg.icon path {
+    fill: var(--ll-dark-green);
+}
+.action-button:hover svg.icon path {
+    fill: var(--ll-green);
 }

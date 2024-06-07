@@ -1,6 +1,6 @@
 import Product from "./Product";
 import {areProductsEqual} from "../../services/productService";
-import {getKey} from "../../util/utils";
+import {toListChildKey} from "../../util/utils";
 import CategoryTitle from "./CategoryTitle";
 
 export default function Category(
@@ -17,7 +17,7 @@ export default function Category(
     const isProductInBasket = (product, basket) => !!basket.find(basketItem => areProductsEqual(product, basketItem));
 
     const toProduct = product => <Product
-        key={getKey(type, product.name)}
+        key={toListChildKey(type, product.name)}
         name={product.name}
         description={product.description}
         cost={product.monthlyCost}

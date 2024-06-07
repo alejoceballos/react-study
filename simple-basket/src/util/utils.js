@@ -1,6 +1,6 @@
 import { $ } from 'moneysafe';
 
-export const getKey = (...args) => args
+export const toListChildKey = (...args) => args
     && args.reduce(
         (accumulator, current) =>
             (accumulator ? accumulator + "-" : "") + current.toLowerCase().replace(" ", "-")

@@ -27,9 +27,9 @@ export default function Shop() {
 
     return (
         <>
-            <h1 className="shop-title">Shop</h1>
+            <h1 data-testid="shop-title" className="shop-title">Shop</h1>
             <div className="product-panel">
-                <PanelTitle title="Products"/>
+                <PanelTitle data-testid="product-panel-title">Products</PanelTitle>
                 <Categories
                     products={products}
                     basket={basket}
@@ -37,7 +37,7 @@ export default function Shop() {
                     onRemoveFromBasket={removeFromBasket}/>
             </div>
             <div className="basket-panel">
-                <PanelTitle title="Basket"/>
+                <PanelTitle data-testid="basket-panel-title">Basket</PanelTitle>
                 <Basket
                     basket={basket}
                     onRemove={removeFromBasket}/>

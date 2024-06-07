@@ -1,6 +1,6 @@
 import BasketItem from "./BasketItem";
 import BasketTotal from "./BasketTotal";
-import {getKey} from "../../util/utils";
+import {toListChildKey} from "../../util/utils";
 
 export default function Basket({basket, onRemove}) {
 
@@ -8,7 +8,7 @@ export default function Basket({basket, onRemove}) {
 
     const toBasketItem = product =>
         <BasketItem
-            key={getKey(product.type, product.name)}
+            key={toListChildKey(product.type, product.name)}
             name={product.name}
             type={product.type}
             value={product.monthlyCost}

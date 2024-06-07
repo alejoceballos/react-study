@@ -1,5 +1,5 @@
 import Category from "./Category";
-import {getKey} from "../../util/utils";
+import {toListChildKey} from "../../util/utils";
 
 export default function Categories(
     {
@@ -11,26 +11,18 @@ export default function Categories(
 
     const toCategory = type =>
         <Category
-            key={getKey(type)}
+            key={toListChildKey(type)}
             type={type}
             products={products[type]}
             basket={basket}
             onAddToBasket={addToBasket}
             onRemoveFromBasket={removeFromBasket}/>;
 
-    const displayCategories = products => {
-        if (products && Object.keys(products).length > 0) {
-            return Object
-                .keys(products)
-                .map(toCategory);
-        }
-
-        return <span>Loading</span>;
+    if (products && Object.keys(products).length > 0) {
+        return Object
+            .keys(products)
+            .map(toCategory);
     }
 
-    return (
-        <>
-            {displayCategories(products)}
-        </>
-    );
+    return <span data-testid="categories-loading-msg">Loading...</span>;
 }

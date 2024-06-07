@@ -1,5 +1,5 @@
 import './PanelTitle.css';
 
-export default function PanelTitle({title}) {
-    return <h1 className="panel-title">{title}</h1>
+export default function PanelTitle({children, "data-testid": dataTestId}) {
+    return <h1 data-testid={dataTestId} className="panel-title">{children}</h1>
 }
